@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumo_plan" />
+        <module name="ueb" />
+        <module name="consumo_energia" />
+        <module name="common-dto" />
+        <module name="plan_energia" />
+        <module name="cumplim_planenergia" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cumplim_planenergia" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-dto" options="-parameters" />
+      <module name="consumo_energia" options="-parameters" />
+      <module name="consumo_plan" options="-parameters" />
+      <module name="cumplim_planenergia" options="-parameters" />
+      <module name="plan_energia" options="-parameters" />
+      <module name="ueb" options="-parameters" />
+    </option>
+  </component>
+</project>

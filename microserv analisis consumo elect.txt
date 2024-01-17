@@ -1,0 +1,13 @@
+
+Hacer los siguientes EndPoint
+- Cumplimiento diario del plan de la UEB. Incluye plan y consumo (fecha, dia_semana, plan, consumo, porciento)
+- Cumplimiento del plan de la UEB por meses. (mes,plan, consumo, porciento)
+
+General
+-Cumplimiento del plan diario de la empresa.
+-Cumplimiento del plan de la empresa por meses.
+-Cumplimiento del plan de 1 mes por cada UEB.
+-Cumplimiento del plan de la empresa por meses y total
+
+
+
